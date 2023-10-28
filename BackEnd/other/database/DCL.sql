@@ -1,0 +1,4 @@
+/* CREAR USUARIO ADMINISTRADOR */
+CREATE USER pet_doctor @'%' IDENTIFIED BY 'JuanGeneroEspinosa2022';
+
+GRANT ALL PRIVILEGES ON *.* TO pet_doctor @'%';

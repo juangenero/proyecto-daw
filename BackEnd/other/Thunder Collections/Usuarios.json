@@ -1,0 +1,172 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Usuarios",
+    "dateExported": "2023-05-14T10:26:36.464Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e98d8091-52b6-483b-9eff-16b36b8de4ac",
+            "colId": "59200470-e6b5-4c96-859c-78b9d5382d44",
+            "containerId": "",
+            "name": "Listado de usuarios",
+            "url": "http://localhost:3001/api/users",
+            "method": "GET",
+            "sortNum": 5000,
+            "created": "2022-12-25T20:01:33.421Z",
+            "modified": "2022-12-25T20:02:34.995Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "534d88d5-9fcd-44df-95d4-a2c6cbc02ecb",
+            "colId": "59200470-e6b5-4c96-859c-78b9d5382d44",
+            "containerId": "",
+            "name": "Listado de nombres de clientes",
+            "url": "http://localhost:3001/api/clientUsernames",
+            "method": "GET",
+            "sortNum": 6250,
+            "created": "2023-01-22T22:26:27.141Z",
+            "modified": "2023-01-28T12:47:33.422Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "33ae5d1f-6113-4918-b2e7-0cebbdcc3322",
+            "colId": "59200470-e6b5-4c96-859c-78b9d5382d44",
+            "containerId": "",
+            "name": "Listado de nombres de veterinarios",
+            "url": "http://localhost:3001/api/vetUsernames",
+            "method": "GET",
+            "sortNum": 6875,
+            "created": "2023-01-28T12:47:39.641Z",
+            "modified": "2023-01-28T12:47:54.629Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "dc860344-7b6a-48b3-86e7-c2a10d2ac177",
+            "colId": "59200470-e6b5-4c96-859c-78b9d5382d44",
+            "containerId": "",
+            "name": "Perfil de usuario",
+            "url": "http://localhost:3001/api/users/2",
+            "method": "GET",
+            "sortNum": 7500,
+            "created": "2022-12-23T17:24:05.147Z",
+            "modified": "2023-01-14T17:02:46.724Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "981634a1-8488-450e-b132-063cff647a07",
+            "colId": "59200470-e6b5-4c96-859c-78b9d5382d44",
+            "containerId": "",
+            "name": "Editar usuario",
+            "url": "http://localhost:3001/api/users",
+            "method": "PATCH",
+            "sortNum": 11250,
+            "created": "2022-12-26T01:15:19.746Z",
+            "modified": "2022-12-28T01:30:11.365Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 326,\n  \"password\": \"\",\n  \"name\": \"\",\n  \"lastName\": \"\",\n  \"dni\": \"\",\n  \"telephone\": \"69365010\",\n  \"email\": \"pedro.rivas@gmail.com\",\n  \"location\": \"\",\n  \"province\": \"\",\n  \"postalCode\": 0,\n  \"dateOfBirth\": \"1995-09-29\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f339683e-0e55-4a5b-9704-faf8d341fcb7",
+            "colId": "59200470-e6b5-4c96-859c-78b9d5382d44",
+            "containerId": "",
+            "name": "Borrar usuario",
+            "url": "http://localhost:3001/api/deleteUser/308",
+            "method": "DELETE",
+            "sortNum": 15000,
+            "created": "2022-12-24T00:35:36.360Z",
+            "modified": "2022-12-26T00:14:35.276Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"id\": 270}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "11f3e277-2127-4021-84cf-47a921901be2",
+            "colId": "59200470-e6b5-4c96-859c-78b9d5382d44",
+            "containerId": "",
+            "name": "Nuevo usuario",
+            "url": "http://localhost:3001/api/users",
+            "method": "POST",
+            "sortNum": 35000,
+            "created": "2022-12-28T01:29:37.259Z",
+            "modified": "2022-12-28T20:56:35.095Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"password\": \"c2b574106da171ae7d7cbcac43cd5c45\",\n  \"name\": \"Juan\",\n  \"lastName\": \"Genero Espinosa\",\n  \"dni\": \"15412968fR\",\n  \"telephone\": \"658789550\",\n  \"email\": \"soraya.mforeno@gmail.com\",\n  \"location\": \"Alcalá de Guadaira\",\n  \"province\": \"Sevilla\",\n  \"postalCode\": \"41500\",\n  \"registerDate\": \"10:45.294Z\",\n  \"dateOfBirth\": \"1994-09-27\",\n  \"rol\": \"0\"\n}\n\n",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Vacunas",
+    "dateExported": "2023-05-13T21:57:53.073Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f8c4d4ca-9c6d-4e95-8e30-810331fceb66",
+            "colId": "ea889201-e70c-495b-abc2-c0c1146127d0",
+            "containerId": "",
+            "name": "Listado de vacunas",
+            "url": "http://localhost:3001/api/vaccines",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2022-12-31T17:53:47.462Z",
+            "modified": "2022-12-31T18:37:11.029Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "154504bb-0631-4dce-b823-2095b55760f5",
+            "colId": "ea889201-e70c-495b-abc2-c0c1146127d0",
+            "containerId": "",
+            "name": "Obtener vacuna por ID",
+            "url": "http://localhost:3001/api/vaccines/1222",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-01-02T21:02:14.373Z",
+            "modified": "2023-05-03T00:19:35.560Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b7e7232f-5486-43ec-95a6-fd526fce256f",
+            "colId": "ea889201-e70c-495b-abc2-c0c1146127d0",
+            "containerId": "",
+            "name": "Eliminar vacuna",
+            "url": "http://localhost:3001/api/vaccines/0",
+            "method": "DELETE",
+            "sortNum": 25000,
+            "created": "2023-01-04T02:09:01.474Z",
+            "modified": "2023-01-04T02:11:31.479Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "af3a196f-39fa-4df4-97a6-de22672d0954",
+            "colId": "ea889201-e70c-495b-abc2-c0c1146127d0",
+            "containerId": "",
+            "name": "Editar vacuna",
+            "url": "http://localhost:3001/api/vaccines",
+            "method": "PATCH",
+            "sortNum": 30000,
+            "created": "2023-01-02T23:51:06.242Z",
+            "modified": "2023-01-08T01:57:16.048Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 3,\n  \"nombre\": \"Rabia\",\n  \"observaciones\": \"Para los que hacen vida exterior\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7dd62840-e20b-4989-ac4d-6c425663a2af",
+            "colId": "ea889201-e70c-495b-abc2-c0c1146127d0",
+            "containerId": "",
+            "name": "Nueva vacuna",
+            "url": "http://localhost:3001/api/vaccines",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-01-08T01:57:25.574Z",
+            "modified": "2023-01-08T02:02:43.572Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Rabiaaa\",\n  \"observaciones\": \"Para los que hacen vida exterior\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

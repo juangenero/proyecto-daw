@@ -1,0 +1,171 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Mascotas",
+    "dateExported": "2023-05-13T21:57:36.239Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3585800b-13a5-48b3-8aa7-0270d135e6c8",
+            "colId": "9a08e19e-bf1f-4568-a923-54eafd8ea36b",
+            "containerId": "",
+            "name": "Listado de mascotas",
+            "url": "http://localhost:3001/api/pets",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-01-08T02:59:56.775Z",
+            "modified": "2023-01-08T03:00:34.662Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "132115be-49e5-44b2-89f2-13d523a7a1ec",
+            "colId": "9a08e19e-bf1f-4568-a923-54eafd8ea36b",
+            "containerId": "",
+            "name": "Obtener nombres de mascotas",
+            "url": "http://localhost:3001/api/petsNames",
+            "method": "GET",
+            "sortNum": 12500,
+            "created": "2023-05-06T21:24:52.733Z",
+            "modified": "2023-05-06T21:25:13.800Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8f8ef0a8-c897-4c7f-bee7-3c66196cd701",
+            "colId": "9a08e19e-bf1f-4568-a923-54eafd8ea36b",
+            "containerId": "",
+            "name": "Listados de nombres de mascotas",
+            "url": "http://localhost:3001/api/pets/petsNames",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2023-04-11T15:42:37.534Z",
+            "modified": "2023-04-11T15:45:24.844Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f112c673-3177-4975-ad47-5bf4d57175f9",
+            "colId": "9a08e19e-bf1f-4568-a923-54eafd8ea36b",
+            "containerId": "",
+            "name": "Mascotas de un usuario",
+            "url": "http://localhost:3001/api/pets/user/2",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-01-10T01:40:51.355Z",
+            "modified": "2023-01-10T02:49:04.932Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ae21ac66-7c84-485c-af30-cba0cdd70a3f",
+            "colId": "9a08e19e-bf1f-4568-a923-54eafd8ea36b",
+            "containerId": "",
+            "name": "Nueva mascota",
+            "url": "http://localhost:3001/api/pets",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-01-23T00:34:03.675Z",
+            "modified": "2023-01-23T20:43:52.101Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"owner\": 2,\r\n    \"name\": \"Rodolfo\",\r\n    \"specie\": \"Canino\",\r\n    \"race\": \"Bulldog\",\r\n    \"sex\": \"Macho\",\r\n    \"weight\": null,\r\n    \"registerDate\": \"2023-1-23\",\r\n    \"dateOfBirth\": \"2023-01-13\",\r\n    \"high\": null,\r\n    \"comments\": \"Se muy asustadizo\",\r\n    \"image\": null\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "0e989ad6-e110-4463-a52a-7e7a479b2847",
+            "colId": "9a08e19e-bf1f-4568-a923-54eafd8ea36b",
+            "containerId": "",
+            "name": "Perfil de mascota",
+            "url": "http://localhost:3001/api/pets/pet/3",
+            "method": "GET",
+            "sortNum": 42500,
+            "created": "2023-01-10T02:48:37.227Z",
+            "modified": "2023-01-28T13:15:20.154Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a21afd86-944f-4784-a9ea-f2cf7c5286ab",
+            "colId": "9a08e19e-bf1f-4568-a923-54eafd8ea36b",
+            "containerId": "",
+            "name": "Editar mascota",
+            "url": "http://localhost:3001/api/pets",
+            "method": "PATCH",
+            "sortNum": 45000,
+            "created": "2023-01-28T13:14:45.552Z",
+            "modified": "2023-01-28T22:23:22.822Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 7,\n  \"owner\": 2,\n  \"name\": \"Rita\",\n  \"specie\": \"Felino\",\n  \"race\": \"Siamés\",\n  \"sex\": \"Hembra\",\n  \"weight\": 2.3,\n  \"registerDate\": \"2023-1-28\",\n  \"dateOfBirth\": \"2019-8-26\",\n  \"high\": 14.2,\n  \"comments\": \"testa\",\n  \"image\": null\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e12d150f-a280-4d5c-945d-18b8fcb2168d",
+            "colId": "9a08e19e-bf1f-4568-a923-54eafd8ea36b",
+            "containerId": "",
+            "name": "Eliminar mascota",
+            "url": "http://localhost:3001/api/pets/19",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-01-23T21:22:00.109Z",
+            "modified": "2023-01-23T21:32:38.415Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Consultas",
+    "dateExported": "2023-05-13T21:57:45.273Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3c4b47a7-e0fe-47f1-9690-e82ef88fe316",
+            "colId": "35427c39-5eb7-4ee2-b79a-b2b35a9d0a60",
+            "containerId": "",
+            "name": "Listado de consultas",
+            "url": "http://localhost:3001/api/consults",
+            "method": "GET",
+            "sortNum": 5000,
+            "created": "2023-03-13T20:11:42.916Z",
+            "modified": "2023-05-02T23:13:11.750Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "82d951cf-4778-40a0-bd6c-f484a26601dd",
+            "colId": "35427c39-5eb7-4ee2-b79a-b2b35a9d0a60",
+            "containerId": "",
+            "name": "Obtener consulta por ID",
+            "url": "http://localhost:3001/api/consults/34",
+            "method": "GET",
+            "sortNum": 7500,
+            "created": "2023-05-02T23:13:18.738Z",
+            "modified": "2023-05-03T00:22:55.098Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1fddd619-c267-4d44-95f6-c8f1de32c477",
+            "colId": "35427c39-5eb7-4ee2-b79a-b2b35a9d0a60",
+            "containerId": "",
+            "name": "Obtener consultas por ID de mascota",
+            "url": "http://localhost:3001/api/consults/pet/2",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-01-14T22:05:08.907Z",
+            "modified": "2023-01-14T22:05:36.589Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "db2a916b-c9c4-47db-8295-95ebf41a1ff8",
+            "colId": "35427c39-5eb7-4ee2-b79a-b2b35a9d0a60",
+            "containerId": "",
+            "name": "Obtener consultas de las mascotas por ID de usuario",
+            "url": "http://localhost:3001/api/consults/pets/user/3",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2023-05-02T23:12:40.096Z",
+            "modified": "2023-05-03T00:18:42.984Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e9ff5248-48eb-4590-9135-9c2534d4c43e",
+            "colId": "35427c39-5eb7-4ee2-b79a-b2b35a9d0a60",
+            "containerId": "",
+            "name": "Nueva consulta",
+            "url": "http://localhost:3001/api/consults",
+            "method": "POST",
+            "sortNum": 17500,
+            "created": "2023-05-06T19:42:47.125Z",
+            "modified": "2023-05-11T19:49:29.550Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"idMascota\": 4,\n  \"idUsuario\": 14,\n  \"fecha\": \"2022-07-18\",\n  \"hora\": \"19:30\",\n  \"diagnostico\": \"Vomita mucho\",\n  \"tratamiento\": \"Pastilla durante 3 días\",\n  \"observaciones\": null\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5fef06b3-163d-486e-a490-46c45d0bdeac",
+            "colId": "35427c39-5eb7-4ee2-b79a-b2b35a9d0a60",
+            "containerId": "",
+            "name": "Editar consulta",
+            "url": "http://localhost:3001/api/consults",
+            "method": "PATCH",
+            "sortNum": 20000,
+            "created": "2023-05-09T22:47:49.386Z",
+            "modified": "2023-05-11T19:53:05.467Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"idMascota\": 1,\n  \"idUsuario\": 13,\n  \"fecha\": \"2023-10-05\",\n  \"hora\": \"13:05\",\n  \"diagnostico\": \"diagnosticoo\",\n  \"tratamiento\": \"tratamietnoo\",\n  \"observaciones\": \"obversacioness\",\n  \"idConsulta\": 52\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "dbc44077-a4be-4955-a5b5-0867ee3b8c1e",
+            "colId": "35427c39-5eb7-4ee2-b79a-b2b35a9d0a60",
+            "containerId": "",
+            "name": "Eliminar consulta por ID",
+            "url": "http://localhost:3001/api/consults/7",
+            "method": "DELETE",
+            "sortNum": 25000,
+            "created": "2023-05-03T01:47:11.964Z",
+            "modified": "2023-05-03T01:50:45.154Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

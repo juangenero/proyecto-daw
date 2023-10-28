@@ -1,0 +1,76 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Aplicar Vacunas",
+    "dateExported": "2023-05-13T21:58:01.235Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e8d257c8-975a-44c8-b151-d323ab280544",
+            "colId": "f039c6b4-b118-4ea3-8d0b-722e93f2d016",
+            "containerId": "",
+            "name": "Aplicaciones de Vacunas de una mascota",
+            "url": "http://localhost:3001/api/vaccineApplication/4",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2023-01-14T16:42:34.735Z",
+            "modified": "2023-04-27T01:00:21.981Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "36caa158-5170-428f-aaaa-423075032c65",
+            "colId": "f039c6b4-b118-4ea3-8d0b-722e93f2d016",
+            "containerId": "",
+            "name": "Añadir Aplicación de Vacuna",
+            "url": "http://localhost:3001/api/vaccineApplication",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-01-14T15:59:36.589Z",
+            "modified": "2023-04-30T03:21:38.873Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"idMascota\": 2,\n  \"idVacuna\": 1,\n  \"fecha\": \"2023-04-26\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a1cf6ec1-c75c-443b-865d-32df9ca239a3",
+            "colId": "f039c6b4-b118-4ea3-8d0b-722e93f2d016",
+            "containerId": "",
+            "name": "Eliminar Aplicación de Vacuna",
+            "url": "http://localhost:3001/api/vaccineApplication",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2023-04-30T17:56:56.640Z",
+            "modified": "2023-04-30T21:52:32.025Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTQsInJvbCI6MSwiaWF0IjoxNjcxMjc4MTAzfQ.upr-jIxgrCItiZfdVRVE-Be9tsQr97_Z5wrUgCJ2CfY"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"idMascota\": 2,\n  \"idVacuna\": 1,\n  \"fecha\": \"2023-04-26\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
