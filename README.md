@@ -1,4 +1,4 @@
-1. Crear DB MySQL (scripts SQL en "backend/others/database")
-2. Configurar conexión del backend a la DB en el archivo .env
-3. Iniciar backend con el comando "npm start"
-4. Iniciar frontend con el comando "npm start"
+1. Crear DB (MySQL o MariaDB) (Scripts en "backend/other/database/") y configurar conexión en el archivo .env
+2. Instalar dependencias backend con "npm install" y arrancarlo con "npm start"
+3. Instalar dependencias frontend con "npm install" y arrancarlo con "npm start"
+4. Acceso login: admin / admin
