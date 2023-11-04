@@ -2,5 +2,5 @@ Proyecto final del ciclo DAW, realizado en 2022 - 2023. Primer contacto con fram
 
 # Inicio de la aplicación
 1. Crear DB (MySQL, MariaDB, etc) con los scripts de "backend/other/database/" y configurar conexión en el archivo .env del backend
-2. Instalar dependencias con <code>npm install</code> e iniciar con <code>npm start</code>, tanto backend como frontend
-3. admin / admin
+2. Instalar dependencias con <code>npm install</code> e iniciar proyectos con <code>npm start</code>, tanto backend como frontend respectivamente
+3. Acceso al dashboard de la aplicación admin / admin
