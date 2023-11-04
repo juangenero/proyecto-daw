@@ -1,4 +1,4 @@
-Proyecto del ciclo DAW 2022 - 2023. Primer contacto con un framework de javascript (React js) y Node js
+Proyecto final del ciclo DAW, realizado en 2022 - 2023. Primer contacto con frameworks de javascript (React js) y Node js
 
 # Inicio de la aplicación
 1. Crear DB (MySQL, MariaDB, etc) con los scripts de "backend/other/database/" y configurar conexión en el archivo .env del backend
